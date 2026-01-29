@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 2</title>
+
+  <p><alert> Due Thursday, February 5</alert></p>
+
+<exercises xml:id="hw2-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: Chapter 11: 4.3bc, 5.1, 5.4ab
+        </p>
+      </statement>
+    </exercise>
+ <exercise>
+        <statement>
+      <p>
+    [Problem A]: Let <m> R</m>  be ring and <m> I</m>  an ideal. Let <m> R[x]</m>, respectively <m> \frac{R}{I}[x]</m>  denote the polynomial ring in one variable over <m> R</m>, respectively<m> \frac{R}{I}</m>. Define: 
+<me>
+  I[x]:=\{a_0+a_1x+a_1x^2+\dots +a_nx^n\mid a_i\in I, n\in \mathbb N\}
+</me>
+
+Prove that <m>I[x]</m>  is an ideal of <m> R[x]</m>  and <m>{\displaystyle \frac{R[x]}{I[x]}\cong \frac{R}{I}[x]}</m>. 
+</p>
+</statement>
+<hint>
+ <p> First define a map <m> R[x]\to \frac{R}{I}[x]</m>  using the Substitution Principle (make sure to describe the map). Then compute the kernel and use FIT.  </p> 
+</hint>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p> [Problem B]:  If <m> f(x)\in \mathbb C[x]</m>  is a nonzero polynomial of degree <m> n</m>, prove that the ring <m> R={\displaystyle \frac{\mathbb C[x]}{(f)}}</m>  has finitely many distinct ideals.  </p> 
+</statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+      <p>
+    [Problem C]: It is true that <m> {\displaystyle\frac{\mathbb Z_{100}[x]}{(\overline{2}x-\overline{1})}\cong \mathbb Z_n}</m>  for some integer <m>n</m>. Figure out the value of <m> n</m>  and prove the isomorphism.  
+  </p>
+  <hint>
+    <p>
+      Start by writing <m> \mathbb Z_{100}[x]\cong\frac{\mathbb Z}{(100)}[x]\cong\frac{\mathbb Z[x]}{(100)}</m>  using problem A, and then see that your ring is isomorphic to <m> \frac{\mathbb Z[x]}{(2x-1, 100)}</m>  using the second isomorphism theorem.  Then look at the example worked out in class for ideas on how to simplify this even further.
+    The answer is NOT <m>n=100</m>. 
+    </p>
+  </hint>
+</statement>
+    </exercise>
+
+
+
+</exercises>
+</section>
