@@ -46,6 +46,51 @@ var ptx_lunr_docs = [
   "body": "  [Problem C]: Let be a ring with and define by . Prove that is a ring homomorphism if and only if has characteristic .   "
 },
 {
+  "id": "HW2",
+  "level": "1",
+  "url": "HW2.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Homework 2",
+  "body": " Homework 2  Due Thursday, February 5     [From the book]: Chapter 11: 4.3bc, 5.1, 5.4ab      [Problem A]: Let be ring and an ideal. Let , respectively denote the polynomial ring in one variable over , respectively . Define: Prove that is an ideal of and .    First define a map using the Substitution Principle (make sure to describe the map). Then compute the kernel and use FIT.      [Problem B]: If is a nonzero polynomial of degree , prove that the ring has finitely many distinct ideals.      [Problem C]: It is true that for some integer . Figure out the value of and prove the isomorphism.   Start by writing using problem A, and then see that your ring is isomorphic to using the second isomorphism theorem. Then look at the example worked out in class for ideas on how to simplify this even further. The answer is NOT .      "
+},
+{
+  "id": "hw2-ex-1",
+  "level": "2",
+  "url": "HW2.html#hw2-ex-1",
+  "type": "Exercise",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  [From the book]: Chapter 11: 4.3bc, 5.1, 5.4ab   "
+},
+{
+  "id": "hw2-ex-2",
+  "level": "2",
+  "url": "HW2.html#hw2-ex-2",
+  "type": "Exercise",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  [Problem A]: Let be ring and an ideal. Let , respectively denote the polynomial ring in one variable over , respectively . Define: Prove that is an ideal of and .    First define a map using the Substitution Principle (make sure to describe the map). Then compute the kernel and use FIT.   "
+},
+{
+  "id": "hw2-ex-3",
+  "level": "2",
+  "url": "HW2.html#hw2-ex-3",
+  "type": "Exercise",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  [Problem B]: If is a nonzero polynomial of degree , prove that the ring has finitely many distinct ideals.   "
+},
+{
+  "id": "hw2-ex-4",
+  "level": "2",
+  "url": "HW2.html#hw2-ex-4",
+  "type": "Exercise",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  [Problem C]: It is true that for some integer . Figure out the value of and prove the isomorphism.   Start by writing using problem A, and then see that your ring is isomorphic to using the second isomorphism theorem. Then look at the example worked out in class for ideas on how to simplify this even further. The answer is NOT .    "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
