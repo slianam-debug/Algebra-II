@@ -91,6 +91,69 @@ var ptx_lunr_docs = [
   "body": "  [Problem C]: It is true that for some integer . Figure out the value of and prove the isomorphism.   Start by writing using problem A, and then see that your ring is isomorphic to using the second isomorphism theorem. Then look at the example worked out in class for ideas on how to simplify this even further. The answer is NOT .    "
 },
 {
+  "id": "HW3",
+  "level": "1",
+  "url": "HW3.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Homework 3",
+  "body": " Homework 3  Due Thursday, February 12     [From the book]: Chapter 11: 6.5, 8.2      [Problem A]: Let be a ring and let denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well.      [Problem B]: Let be an integral domain. If there exist rings and such that , prove that or .      [Problem C]: Let and be two rings.  Let be an ideal of and an ideal of . Prove that is an ideal of and .  Let be an ideal of . Prove there exists an ideal of and an ideal of such that .   With as above, prove that is a maximal ideal ideal of if and only if one of the following holds:    and is a maximal ideal of ; or  and is a maximal ideal of .          [Problem D]: (This is a modified version of problem 6.8 in Chapter 11) Let and be ideals of a ring such that .  Prove (The product ideal was defined in Exercise 3.13)  Prove the Chinese Remainder Theorem : For any pair of elements of there is an element such that and .  Prove that is isomorphic to .  State and prove (by induction) a generalization of the statement in part (c) to ideals such that for all .        [Problem E]: Prove that .     "
+},
+{
+  "id": "hw3-ex-1",
+  "level": "2",
+  "url": "HW3.html#hw3-ex-1",
+  "type": "Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  [From the book]: Chapter 11: 6.5, 8.2   "
+},
+{
+  "id": "hw3-ex-2",
+  "level": "2",
+  "url": "HW3.html#hw3-ex-2",
+  "type": "Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  [Problem A]: Let be a ring and let denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well.   "
+},
+{
+  "id": "hw3-ex-3",
+  "level": "2",
+  "url": "HW3.html#hw3-ex-3",
+  "type": "Exercise",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  [Problem B]: Let be an integral domain. If there exist rings and such that , prove that or .   "
+},
+{
+  "id": "hw3-ex-4",
+  "level": "2",
+  "url": "HW3.html#hw3-ex-4",
+  "type": "Exercise",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  [Problem C]: Let and be two rings.  Let be an ideal of and an ideal of . Prove that is an ideal of and .  Let be an ideal of . Prove there exists an ideal of and an ideal of such that .   With as above, prove that is a maximal ideal ideal of if and only if one of the following holds:    and is a maximal ideal of ; or  and is a maximal ideal of .       "
+},
+{
+  "id": "hw3-ex-5",
+  "level": "2",
+  "url": "HW3.html#hw3-ex-5",
+  "type": "Exercise",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  [Problem D]: (This is a modified version of problem 6.8 in Chapter 11) Let and be ideals of a ring such that .  Prove (The product ideal was defined in Exercise 3.13)  Prove the Chinese Remainder Theorem : For any pair of elements of there is an element such that and .  Prove that is isomorphic to .  State and prove (by induction) a generalization of the statement in part (c) to ideals such that for all .     "
+},
+{
+  "id": "hw3-ex-6",
+  "level": "2",
+  "url": "HW3.html#hw3-ex-6",
+  "type": "Exercise",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  [Problem E]: Prove that .   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
