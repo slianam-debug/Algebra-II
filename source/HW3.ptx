@@ -13,18 +13,12 @@
         </p>
       </statement>
     </exercise>
- <exercise>
-        <statement>
-      <p>
-    [Problem A]: Let <m>R</m> be a ring and let <m>\mathcal{Q}(R)</m> denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well. 
-</p>
-</statement>
-    </exercise>
+
 
     <exercise>
         <statement>
       <p>
-    [Problem B]: Let <m>  R</m>   be an integral domain. If there exist rings <m>  A</m>   and <m>  B</m>   such that <m>  R=A\times B</m>  , prove that <m>  A=0</m>   or <m>  B=0</m>  . 
+    [Problem A]: Let <m>  R</m>   be an integral domain. If there exist rings <m>  A</m>   and <m>  B</m>   such that <m>  R=A\times B</m>  , prove that <m>  A=0</m>   or <m>  B=0</m>  . 
       </p>
 </statement>
     </exercise>
@@ -33,7 +27,7 @@
     <exercise>
         <statement>
       <p>
-    [Problem C]: Let <m>  A</m>   and <m>  B</m>   be two rings. 
+    [Problem B]: Let <m>  A</m>   and <m>  B</m>   be two rings. 
 <ol>
 <li>Let <m>  I</m>   be an ideal of <m>  A</m>   and <m>  J</m>   an ideal of <m>  B</m>  . Prove that <m>  I\times J</m>   is an ideal of <m>  A\times B</m>   and <me>  \frac{A\times B}{I\times J}\cong \frac{A}{I}\times \frac{B}{J}</me>  . 
 </li>
@@ -50,12 +44,17 @@
 </ol>
       </p>
 </statement>
+<hint>
+    <p>
+        For part (c), you may find Problem A useful.
+    </p>
+</hint>
     </exercise>
 
     <exercise>
       <statement>
         <p> 
-       [Problem D]: (This is a modified version of problem 6.8 in Chapter 11) Let <m>  I</m>   and <m>  J</m>   be ideals of a ring <m>  R</m>   such that <m>  I+J=R</m>  . 
+       [Problem C]: (This is a modified version of problem 6.8 in Chapter 11) Let <m>  I</m>   and <m>  J</m>   be ideals of a ring <m>  R</m>   such that <m>  I+J=R</m>  . 
 <ol>
 <li>Prove <m>  IJ=I\cap J</m>   (The product ideal <m>  IJ</m>   was defined in Exercise 3.13)
 </li>
@@ -74,8 +73,16 @@
 <exercise>
         <statement>
       <p>
-    [Problem E]: Prove that <me>  \frac{\mathbb R[x]}{(x^4-1)}\cong \mathbb C\times \mathbb R\times \mathbb R</me>  .
+    [Problem D]: Prove that <me>  \frac{\mathbb R[x]}{(x^4-1)}\cong \mathbb C\times \mathbb R\times \mathbb R</me>  .
  </p>
+</statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+      <p>
+    [Problem E]: Let <m>R</m> be a ring and let <m>\mathcal{Q}(R)</m> denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well. 
+</p>
 </statement>
     </exercise>
 
