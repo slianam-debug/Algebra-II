@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Homework 3",
-  "body": " Homework 3  Due Thursday, February 12     [From the book]: Chapter 11: 6.5, 8.2      [Problem A]: Let be a ring and let denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well.      [Problem B]: Let be an integral domain. If there exist rings and such that , prove that or .      [Problem C]: Let and be two rings.  Let be an ideal of and an ideal of . Prove that is an ideal of and .  Let be an ideal of . Prove there exists an ideal of and an ideal of such that .   With as above, prove that is a maximal ideal ideal of if and only if one of the following holds:    and is a maximal ideal of ; or  and is a maximal ideal of .          [Problem D]: (This is a modified version of problem 6.8 in Chapter 11) Let and be ideals of a ring such that .  Prove (The product ideal was defined in Exercise 3.13)  Prove the Chinese Remainder Theorem : For any pair of elements of there is an element such that and .  Prove that is isomorphic to .  State and prove (by induction) a generalization of the statement in part (c) to ideals such that for all .        [Problem E]: Prove that .     "
+  "body": " Homework 3  Due Thursday, February 12     [From the book]: Chapter 11: 6.5, 8.2      [Problem A]: Let be a ring and let denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well.      [Problem B]: Let be an integral domain. If there exist rings and such that , prove that or .      [Problem C]: Let and be two rings.  Let be an ideal of and an ideal of . Prove that is an ideal of and .  Let be an ideal of . Prove there exists an ideal of and an ideal of such that .   With as above, prove that is a maximal ideal ideal of if and only if one of the following holds:    and is a maximal ideal of ; or  and is a maximal ideal of .        For part (c), you may find Problem B useful.      [Problem D]: (This is a modified version of problem 6.8 in Chapter 11) Let and be ideals of a ring such that .  Prove (The product ideal was defined in Exercise 3.13)  Prove the Chinese Remainder Theorem : For any pair of elements of there is an element such that and .  Prove that is isomorphic to .  State and prove (by induction) a generalization of the statement in part (c) to ideals such that for all .        [Problem E]: Prove that .     "
 },
 {
   "id": "hw3-ex-1",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4",
   "title": "",
-  "body": "  [Problem C]: Let and be two rings.  Let be an ideal of and an ideal of . Prove that is an ideal of and .  Let be an ideal of . Prove there exists an ideal of and an ideal of such that .   With as above, prove that is a maximal ideal ideal of if and only if one of the following holds:    and is a maximal ideal of ; or  and is a maximal ideal of .       "
+  "body": "  [Problem C]: Let and be two rings.  Let be an ideal of and an ideal of . Prove that is an ideal of and .  Let be an ideal of . Prove there exists an ideal of and an ideal of such that .   With as above, prove that is a maximal ideal ideal of if and only if one of the following holds:    and is a maximal ideal of ; or  and is a maximal ideal of .        For part (c), you may find Problem B useful.   "
 },
 {
   "id": "hw3-ex-5",
