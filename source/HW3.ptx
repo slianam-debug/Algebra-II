@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 3</title>
+
+  <p><alert> Due Thursday, February 12</alert></p>
+
+<exercises xml:id="hw3-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: Chapter 11: 6.5, 8.2
+        </p>
+      </statement>
+    </exercise>
+ <exercise>
+        <statement>
+      <p>
+    [Problem A]: Let <m>R</m> be a ring and let <m>\mathcal{Q}(R)</m> denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well. 
+</p>
+</statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+      <p>
+    [Problem B]: Let <m>  R</m>   be an integral domain. If there exist rings <m>  A</m>   and <m>  B</m>   such that <m>  R=A\times B</m>  , prove that <m>  A=0</m>   or <m>  B=0</m>  . 
+      </p>
+</statement>
+    </exercise>
+
+
+    <exercise>
+        <statement>
+      <p>
+    [Problem C]: Let <m>  A</m>   and <m>  B</m>   be two rings. 
+<ol>
+<li>Let <m>  I</m>   be an ideal of <m>  A</m>   and <m>  J</m>   an ideal of <m>  B</m>  . Prove that <m>  I\times J</m>   is an ideal of <m>  A\times B</m>   and <me>  \frac{A\times B}{I\times J}\cong \frac{A}{I}\times \frac{B}{J}</me>  . 
+</li>
+<li>Let <m>  L</m>   be an ideal of <m>  A\times B</m>  . Prove there exists an ideal <m>  I</m>   of <m>  A</m>   and an ideal <m>  J</m>   of <m>  B</m>   such that <m>  L=I\times J</m>  .
+</li>
+<li> <p> With <m> L=I\times J</m>   as above, prove that <m>  L</m>   is a maximal ideal ideal of <m>  A\times B</m>   if and only if one of the following holds:
+</p> <ol>
+<li> <m>  I=A</m>   and <m>  J</m>   is a maximal ideal of <m>  B</m>  ; or
+</li>
+<li><m>  J=B</m>   and <m>  I</m>   is a maximal ideal of <m>  A</m>  .
+</li>
+</ol>
+</li>
+</ol>
+      </p>
+</statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p> 
+       [Problem D]: (This is a modified version of problem 6.8 in Chapter 11) Let <m>  I</m>   and <m>  J</m>   be ideals of a ring <m>  R</m>   such that <m>  I+J=R</m>  . 
+<ol>
+<li>Prove <m>  IJ=I\cap J</m>   (The product ideal <m>  IJ</m>   was defined in Exercise 3.13)
+</li>
+    <li> Prove the <em>
+    Chinese Remainder Theorem</em>: For any pair <m>  a, b</m>   of elements of <m>  R</m>   there is an element <m>  x\in R</m>   such that <m>  x-a\in I</m>   and <m>  x-b\in J</m>  . 
+ </li>
+<li> Prove that <m>  R/IJ</m>   is isomorphic to <m>  R/I\times R/J</m>  . 
+</li>
+<li> State and prove (by induction) a generalization of the statement in part (c) to <m>  n</m>   ideals <m>  I_1, \dots, I_n</m>   such that <m>  I_i+I_j=R</m>   for all <m>  i\ne j</m>  . 
+</li>
+</ol>     
+        </p>
+     </statement>
+     </exercise>
+
+<exercise>
+        <statement>
+      <p>
+    [Problem E]: Prove that <me>  \frac{\mathbb R[x]}{(x^4-1)}\cong \mathbb C\times \mathbb R\times \mathbb R</me>  .
+ </p>
+</statement>
+    </exercise>
+
+
+</exercises>
+</section>
