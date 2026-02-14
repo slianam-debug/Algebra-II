@@ -154,6 +154,33 @@ var ptx_lunr_docs = [
   "body": "  [Problem E]: Let be a ring and let denote its ring of fractions, as defined in class. We proved in class multiplication is well-defined. Prove that addition is well-defined as well.   "
 },
 {
+  "id": "HW4",
+  "level": "1",
+  "url": "HW4.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "Homework 4",
+  "body": " Homework 4  Due Thursday, February 19     [From the book]: Chapter 11: 8.3      [Problem A]: Decide whether the following ideal are maximal in and justify your answer.                 "
+},
+{
+  "id": "hw4-ex-1",
+  "level": "2",
+  "url": "HW4.html#hw4-ex-1",
+  "type": "Exercise",
+  "number": "1.4.1",
+  "title": "",
+  "body": "  [From the book]: Chapter 11: 8.3   "
+},
+{
+  "id": "hw4-ex-2",
+  "level": "2",
+  "url": "HW4.html#hw4-ex-2",
+  "type": "Exercise",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  [Problem A]: Decide whether the following ideal are maximal in and justify your answer.               "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
