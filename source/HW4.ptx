@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 4</title>
+
+  <p><alert> Due Thursday, February 19</alert></p>
+
+<exercises xml:id="hw4-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: Chapter 11: 8.3
+        </p>
+      </statement>
+    </exercise>
+
+
+    <exercise>
+        <statement>
+      <p>
+    [Problem A]: Decide whether the following ideal are maximal in <m>\mathbb Z[x]</m> and justify your answer. 
+    <ol>
+        <li>
+            <p>
+                <m>(3,x^2+1)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>(3,x^3+x+1)</m>
+            </p>
+        </li>
+    </ol>
+      </p>
+    </statement>
+</exercise>
+</exercises>
+</section>
