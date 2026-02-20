@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 5</title>
+
+  <p><alert> Due Thursday, February 26</alert></p>
+
+<exercises xml:id="hw5-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: Chapter 12: 2.4, 3.1, 3.2
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <p>
+       [Problem A] Let <m>  R</m>   be an integral domain. Let <m>  x\in R</m>. Prove that <m>  x</m>   is prime if and only if <m>  \frac{R}{(x)}</m>   is an integral domain.      
+        </p>
+    </exercise>
+
+
+    <exercise>
+        <statement>
+      <p>
+    [Problem B] If <m>  f\in \mathbb Z[x]</m>, we denote by <m>  c(f)</m>   the gcd of the coefficients of <m>  f</m>. (This is called the <term> content</term> of <m>  f</m>.)  
+    <ol>
+        <li>
+            <p>
+               If <m>  f, g\in \mathbb Z[x]</m>, prove <me>  c(f g)=c(f) c(g).</me>   
+            </p>
+        </li>
+        <li>
+            <p>
+             Let <m>  f\in \mathbb Q[x]</m>  . Then there exists <m>  n\in \mathbb Z</m>   with <m>  n\ne 0</m>   such that <m>  nf\in \mathbb Z[x]</m>   (take <m>  n</m>   to be the common denominator of the coefficients, for example.) 
+If <m>  n_1</m>   and <m>  n_2</m>   are two nonzero integers such that <m>  n_1f\in \mathbb Z[x]</m>   and <m>  n_2f\in \mathbb Z[x]</m>, prove that <me> \frac{ c(n_1f)}{n_1}=\frac{c(n_2f)}{n_2}</me>.    
+            </p>
+        </li>
+        <li>
+            <p>
+              Part (b) above shows that the expression <m>  \frac{c(nf)}{n}</m>   does not depend on the choice of <m>  n</m>   with  <m>  nf\in \mathbb Z[x]</m>  . Thus, if <m>  f\in \mathbb Q[x]</m>  , let us define <me>  c(f)=\frac{c(nf)}{n},</me> where <m>  n</m>   is any nonzero  integer such that <m>  nf\in \mathbb Z[x]</m>  . Prove that <me>  c(f g)=c(f) c(g).</me> 
+            </p>
+        </li>
+    </ol>
+      </p>
+    </statement>
+    <hint>
+        <p>
+            Use Lemma 12.3.5; try to make the connection between <m>  c(f)</m>   and the number  <m>  c</m>   from Lemma 12.3.5 and then use the uniqueness part of the lemma. 
+        </p>
+    </hint>
+</exercise>
+
+<exercise>
+<statement>
+    <p>
+    [Problem C]    We define a function <m>\varphi : \mathbb Z[x]\to \mathbb N</m> as follows: If <m>f(x)=a_0+a_1x+\dots+a_nx^n</m> is a polynomial of degree <m>n</m>, then <me>\varphi(f)=|a_n|+n.</me> (Here <m>|a_n|</m> denotes the absolute value of <m>a_n</m>.)
+ Let <m> f</m>, <m>g</m> be two nonzero polynomials in <m>\mathbb Z[x]</m> such that <m>f</m> divides <m>g</m> in <m>\mathbb Z[x]</m>.
+    </p>
+ <ol>
+    <li>
+        <p>
+            Prove <m>\varphi(f)\le \varphi(g)</m>.
+        </p>
+    </li>
+    <li>
+        <p>
+            Prove that <m>\varphi( f ) = \varphi(g)</m> if and only if <m>f</m> and <m>g</m> are associates.
+        </p>
+    </li>
+ </ol>
+</statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+    [Problem D] Use Problem C to prove that factoring terminates in <m>\mathbb Z[x]</m>.
+        </p>
+    </statement>
+    <hint>
+    <p>
+      Use Proposition 12.2.3   
+    </p>
+</hint>
+</exercise>
+</exercises>
+</section>
