@@ -181,6 +181,60 @@ var ptx_lunr_docs = [
   "body": "  [Problem A]: Decide whether the following ideal are maximal in and justify your answer.               "
 },
 {
+  "id": "HW5",
+  "level": "1",
+  "url": "HW5.html",
+  "type": "Section",
+  "number": "1.5",
+  "title": "Homework 5",
+  "body": " Homework 5  Due Thursday, February 26     [From the book]: Chapter 12: 2.4, 3.1, 3.2     [Problem A] Let be an integral domain. Let . Prove that is prime if and only if is an integral domain.     [Problem B] If , we denote by the gcd of the coefficients of . (This is called the content of .)   If , prove     Let . Then there exists with such that (take to be the common denominator of the coefficients, for example.) If and are two nonzero integers such that and , prove that .    Part (b) above shows that the expression does not depend on the choice of with . Thus, if , let us define where is any nonzero integer such that . Prove that        Use Lemma 12.3.5; try to make the connection between and the number from Lemma 12.3.5 and then use the uniqueness part of the lemma.      [Problem C] We define a function as follows: If is a polynomial of degree , then (Here denotes the absolute value of .) Let , be two nonzero polynomials in such that divides in .    Prove .    Prove that if and only if and are associates.        [Problem D] Use Problem C to prove that factoring terminates in .    Use Proposition 12.2.3     "
+},
+{
+  "id": "hw5-ex-1",
+  "level": "2",
+  "url": "HW5.html#hw5-ex-1",
+  "type": "Exercise",
+  "number": "1.5.1",
+  "title": "",
+  "body": "  [From the book]: Chapter 12: 2.4, 3.1, 3.2   "
+},
+{
+  "id": "hw5-ex-2",
+  "level": "2",
+  "url": "HW5.html#hw5-ex-2",
+  "type": "Exercise",
+  "number": "1.5.2",
+  "title": "",
+  "body": " [Problem A] Let be an integral domain. Let . Prove that is prime if and only if is an integral domain.  "
+},
+{
+  "id": "hw5-ex-3",
+  "level": "2",
+  "url": "HW5.html#hw5-ex-3",
+  "type": "Exercise",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  [Problem B] If , we denote by the gcd of the coefficients of . (This is called the content of .)   If , prove     Let . Then there exists with such that (take to be the common denominator of the coefficients, for example.) If and are two nonzero integers such that and , prove that .    Part (b) above shows that the expression does not depend on the choice of with . Thus, if , let us define where is any nonzero integer such that . Prove that        Use Lemma 12.3.5; try to make the connection between and the number from Lemma 12.3.5 and then use the uniqueness part of the lemma.   "
+},
+{
+  "id": "hw5-ex-4",
+  "level": "2",
+  "url": "HW5.html#hw5-ex-4",
+  "type": "Exercise",
+  "number": "1.5.4",
+  "title": "",
+  "body": "  [Problem C] We define a function as follows: If is a polynomial of degree , then (Here denotes the absolute value of .) Let , be two nonzero polynomials in such that divides in .    Prove .    Prove that if and only if and are associates.     "
+},
+{
+  "id": "hw5-ex-5",
+  "level": "2",
+  "url": "HW5.html#hw5-ex-5",
+  "type": "Exercise",
+  "number": "1.5.5",
+  "title": "",
+  "body": "  [Problem D] Use Problem C to prove that factoring terminates in .    Use Proposition 12.2.3   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
