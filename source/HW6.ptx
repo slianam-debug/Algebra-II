@@ -60,7 +60,7 @@
     <p>
     [Problem C]   Let <m>  R</m>   be a ring and let <m>  M</m>   be an <m>  R</m>  -module. The <term> annihilator</term> of <m>  M</m>   is defined as 
  <me>  
-\Ann(M)=\{x\in R\mid xM=0 \,,\, \, i.e.\,\,\,  xm=0  \,\, \forall\,  m\in M \}
+\Ann(M)=\{x\in R\mid xM=0 \,,\, \, i.e.\,\,\,  xm=0  \,\, \forall\,  m\in M \}.
 </me>
 </p>
 Prove: 
