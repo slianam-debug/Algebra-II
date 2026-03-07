@@ -277,12 +277,12 @@
             <ul>
                 <li>
                     <p>
-                        Use the methods from the previous section to compute various rings obtained by adjoing one or more elements, as in the homework. 
+                        Use the methods from the previous section to compute various rings obtained by adjoining one or more elements, as in the homework. 
                     </p>
                 </li>
                 <li>
                     <p>
-                         Use Proposition 11.5.5 to express elements in $R[\alpha]$ in short form as indicated by Proposition 11.5.5, and to derive other conclusions.  For example, can you say how many elements are in the ring <m>\mathbb  Z_3[\alpha]=\mathbb Z_3[x]/(x^3+2x+1)</m>? 
+                         Use Proposition 11.5.5 to express elements in <m>R[\alpha]</m> in short form as indicated by Proposition 11.5.5, and to derive other conclusions.  For example, can you say how many elements are in the ring <m>\mathbb  Z_3[\alpha]=\mathbb Z_3[x]/(x^3+2x+1)</m>? 
                     </p>
                 </li>
             </ul>
@@ -379,7 +379,7 @@
             <ul>
                 <li>
                     <p>
-                        Prove that addition and mutiplication of fractions is well-defined
+                        Prove that addition and multiplication of fractions is well-defined
                     </p>
                 </li>
             </ul>
