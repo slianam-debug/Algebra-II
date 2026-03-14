@@ -289,6 +289,42 @@ var ptx_lunr_docs = [
   "body": "  [Problem C] Let be a ring and let be an -module. The annihilator of is defined as  Prove:    is an ideal of .    If is an ideal, then .    If is a free -module, then .    If is a submodule of , then .    If has a free submodule, then .    If , are two -modules such that , then .     "
 },
 {
+  "id": "HW7",
+  "level": "1",
+  "url": "HW7.html",
+  "type": "Section",
+  "number": "1.7",
+  "title": "Homework 7",
+  "body": " Homework 7  Due Thursday, March 19     [From the book]: Chapter 14: 4.1ac, 4.3, 4.4    Use Proposition 14.4.9 for 4.3 and 4.4      Let be a ring and let , be two isomorphic -modules. Let be a submodule of and be a submodule of such that . Let and be -module isomorphisms such that for all . Prove that the following hold:   If , then if and only if .     .       Construct first a homomorphism -- its definition will probably depend on . Show it is onto. Then use the First isomorphism theorem.     Remark: In the problem above: If and , it is not guaranteed that we can construct isomorphisms as above, satisfying for all . If this condition is not satisfied, then the conlcusion in part (2) may not hold. We want to give an example in the problem below. To make it easy, let's assume that .     Give an example of a ring , an -module and two submodules , of such that , but .    How do you prove that two modules are NOT isomorphic? This idea may work sometimes: In view of a problem from the last homework, if , you can conclude right away that .     "
+},
+{
+  "id": "hw7-ex-1",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-1",
+  "type": "Exercise",
+  "number": "1.7.1",
+  "title": "",
+  "body": "  [From the book]: Chapter 14: 4.1ac, 4.3, 4.4    Use Proposition 14.4.9 for 4.3 and 4.4   "
+},
+{
+  "id": "hw7-ex-2",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-2",
+  "type": "Exercise",
+  "number": "1.7.2",
+  "title": "",
+  "body": "  Let be a ring and let , be two isomorphic -modules. Let be a submodule of and be a submodule of such that . Let and be -module isomorphisms such that for all . Prove that the following hold:   If , then if and only if .     .       Construct first a homomorphism -- its definition will probably depend on . Show it is onto. Then use the First isomorphism theorem.   "
+},
+{
+  "id": "hw7-ex-4",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-4",
+  "type": "Exercise",
+  "number": "1.7.3",
+  "title": "",
+  "body": "  Give an example of a ring , an -module and two submodules , of such that , but .    How do you prove that two modules are NOT isomorphic? This idea may work sometimes: In view of a problem from the last homework, if , you can conclude right away that .   "
+},
+{
   "id": "Exam1-Review",
   "level": "1",
   "url": "Exam1-Review.html",
