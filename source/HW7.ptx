@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW7" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 7</title>
+
+  <p><alert> Due Thursday, March 19</alert></p>
+
+<exercises xml:id="hw7-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: Chapter 14: 4.1ac, 4.3, 4.4
+        </p>
+         </statement>
+        <solution>
+           <p>
+            Use Proposition 14.4.9 for 4.3 and 4.4
+           </p>
+        </solution>
+    </exercise>
+
+    <exercise>
+        <statement>
+        <p>
+            Let <m>R</m>  be a ring and let <m>M</m>, <m>N</m>  be two isomorphic <m> R</m> -modules.
+              Let <m> U\subset M</m>  be a submodule of <m>M</m>  and <m> V\subset N</m>  be a submodule of
+             <m> N</m>  such that <m> U\cong V</m>. 
+Let  <m> f\colon M\to N</m>   and <m> g\colon U\to V</m>  
+    be <m> R</m> -module isomorphisms such  that <m> g(p)=f(p)</m>  for all <m> p\in U</m>.
+         Prove that the following hold: 
+    <ol>
+ <li>
+    <p>If <m> m\in M</m> , then <m> f(m)\in V</m>  if and only if <m> m\in U</m> .
+    </p>
+    </li> 
+
+<li>
+    <p> <m> M/U\cong N/V</m> . 
+    </p>
+</li>
+</ol>
+</p>
+</statement>
+<hint>
+    <p>
+ Construct first a homomorphism <m> M\to N/V</m>  -- its definition will probably depend on <m> f</m> . Show it is onto. Then use the First isomorphism theorem.       </p>
+    </hint>
+    </exercise>
+
+<solution>
+    <p>
+        Remark: In the problem above: If <m> M\cong N</m>  and <m> U\cong V</m> , it is not guaranteed that we can construct isomorphisms <m> f,g</m>  as above, satisfying <m> g(p)=f(p)</m>  for all <m> p\in U</m> . If this condition is not satisfied, then the conlcusion <m> M/U\cong N/V</m>  in part (2) may not hold. 
+
+We want to give an example in the problem below. To make it easy, let's assume that <m> M=N</m> . 
+    </p>
+</solution>
+
+   
+<exercise>
+<statement>
+    <p>
+      Give an example of a  ring <m> R</m> , an <m> R</m> -module <m> M</m>  and two submodules <m> U</m> , <m> V</m>  of <m> M</m>  such that <m> U\cong V</m> , but <m> M/U\not\cong M/V</m> .   
+    </p>
+  
+</statement>
+<hint>
+    <p>
+    How do you prove that two modules are NOT isomorphic? This idea may work sometimes: In view of a problem from the last homework, if  <m>\Ann(A)\ne \Ann(B)</m> , you can conclude right away that <m> A\not\cong B</m>.
+    </p>
+</hint>
+</exercise>
+
+</exercises>
+</section>
