@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW9" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 9</title>
+
+  <p><alert> Due Thursday, April 9</alert></p>
+
+<exercises xml:id="hw9-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: Chapter 15: 2.1, 2.2, 3.1
+        </p>
+    </statement>
+        <solution>
+            <p>
+We say that <m> \alpha</m> generates a field extension <m>F\subseteq K</m> if <m>K=F(\alpha)</m> . Thus, for problem 3.1 you need to show <m>F(\alpha)=F(\alpha^2)</m>. (Hint: Use the multiplicative property of degree.)
+        </p>
+    </solution>
+    </exercise>
+
+    <exercise>
+        <statement>
+        <p>
+          [Problem A] The Structure theorem of finite abelian groups says that any 
+           finite abelian group can be written (up to isomorphism) as a direct product of cyclic groups of the form 
+           <m>\mathbb Z_{p^n}</m> with <m>p</m> prime. If <m>G</m> is a finite abelian group,
+            <m>p</m> is a prime number and <m>n</m> is a non-negative integer, we let 
+           <m>r_G(p,n)</m> denote the number of times that
+             <m>\mathbb Z_{p^n}</m> appears in this decomposition of <m>G</m> as a direct product. The uniqueness part of the theorem tells us 
+             that two groups <m>G</m> and  <m>G'</m> are isomorphic if and only if 
+             <m>r_G(p,n)=r_{G'}(p,n)</m> for all primes <m>p</m> and all non-negative integers <m>n</m>. 
+             (This is equivalent to saying that such decompositions are unique, up to the order in which we write the terms of 
+             the direct products.)
+        </p>
+        <p>
+             Use the theorem and the notation introduced above to show the following hold for <m>M,N,P</m> finite abelian groups:
+        </p>
+    <ol>
+        <li>
+            <p>
+              If <m>M\times M\cong N\times N</m> then <m>M\cong N</m>.  
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m> M\times N\cong M\times P</m> then <m>N\cong P</m>.
+            </p>
+        </li>
+    </ol>
+</statement>
+</exercise>
+
+<exercise>
+    <p>
+[Problem B] If <m>F\subseteq K</m> is a  field extension and <m>\alpha\in K</m>, then <m>F(\alpha)</m> is the set of all fractions in <m>K</m> of the form <m>\frac{f(\alpha)}{g(\alpha)}</m>, where <m>f,g\in F[x]</m>.  
+    </p>
+    <p>
+If <m>F\subseteq L</m> is another field extension, show: If <m>\alpha\in L</m>, then <m>F(\alpha)\subseteq L</m>. 
+    </p>
+    <p>
+Then, use this observation to prove
+<me>\mathbb Q(\sqrt{2})=\mathbb Q(2+3\sqrt{2})</me>.
+    </p>
+</exercise>
+
+</exercises>
+</section>
