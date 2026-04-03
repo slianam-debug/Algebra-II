@@ -325,6 +325,42 @@ var ptx_lunr_docs = [
   "body": "  Give an example of a ring , an -module and two submodules , of such that , but .    How do you prove that two modules are NOT isomorphic? This idea may work sometimes: In view of a problem from the last homework, if , you can conclude right away that .   "
 },
 {
+  "id": "HW9",
+  "level": "1",
+  "url": "HW9.html",
+  "type": "Section",
+  "number": "1.8",
+  "title": "Homework 9",
+  "body": " Homework 9  Due Thursday, April 9     [From the book]: Chapter 15: 2.1, 2.2, 3.1    We say that generates a field extension if . Thus, for problem 3.1 you need to show . (Hint: Use the multiplicative property of degree.)      [Problem A] The Structure theorem of finite abelian groups says that any finite abelian group can be written (up to isomorphism) as a direct product of cyclic groups of the form with prime. If is a finite abelian group, is a prime number and is a non-negative integer, we let denote the number of times that appears in this decomposition of as a direct product. The uniqueness part of the theorem tells us that two groups and are isomorphic if and only if for all primes and all non-negative integers . (This is equivalent to saying that such decompositions are unique, up to the order in which we write the terms of the direct products.)  Use the theorem and the notation introduced above to show the following hold for finite abelian groups:    If then .    If then .       [Problem B] If is a field extension and , then is the set of all fractions in of the form , where .  If is another field extension, show: If , then .  Then, use this observation to prove .    "
+},
+{
+  "id": "hw9-ex-1",
+  "level": "2",
+  "url": "HW9.html#hw9-ex-1",
+  "type": "Exercise",
+  "number": "1.8.1",
+  "title": "",
+  "body": "  [From the book]: Chapter 15: 2.1, 2.2, 3.1    We say that generates a field extension if . Thus, for problem 3.1 you need to show . (Hint: Use the multiplicative property of degree.)   "
+},
+{
+  "id": "hw9-ex-2",
+  "level": "2",
+  "url": "HW9.html#hw9-ex-2",
+  "type": "Exercise",
+  "number": "1.8.2",
+  "title": "",
+  "body": "  [Problem A] The Structure theorem of finite abelian groups says that any finite abelian group can be written (up to isomorphism) as a direct product of cyclic groups of the form with prime. If is a finite abelian group, is a prime number and is a non-negative integer, we let denote the number of times that appears in this decomposition of as a direct product. The uniqueness part of the theorem tells us that two groups and are isomorphic if and only if for all primes and all non-negative integers . (This is equivalent to saying that such decompositions are unique, up to the order in which we write the terms of the direct products.)  Use the theorem and the notation introduced above to show the following hold for finite abelian groups:    If then .    If then .     "
+},
+{
+  "id": "hw9-ex-3",
+  "level": "2",
+  "url": "HW9.html#hw9-ex-3",
+  "type": "Exercise",
+  "number": "1.8.3",
+  "title": "",
+  "body": " [Problem B] If is a field extension and , then is the set of all fractions in of the form , where .  If is another field extension, show: If , then .  Then, use this observation to prove .  "
+},
+{
   "id": "Exam1-Review",
   "level": "1",
   "url": "Exam1-Review.html",
