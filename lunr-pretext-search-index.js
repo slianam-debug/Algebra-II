@@ -361,6 +361,42 @@ var ptx_lunr_docs = [
   "body": " [Problem B] If is a field extension and , then is the set of all fractions in of the form , where .  If is another field extension, show: If , then .  Then, use this observation to prove .  "
 },
 {
+  "id": "HW10",
+  "level": "1",
+  "url": "HW10.html",
+  "type": "Section",
+  "number": "1.9",
+  "title": "Homework 10",
+  "body": " Homework 10  Due Thursday, April 16  A comment about roots of unity: In order to compute the degree of over or other fields, one does not need to explicitly compute . Here is how one can reason: Note that is a root of . This polynomial is not irreducible, so in order to find the minimal polynomial of we would need to factor it and figure out which one of its irreducible factors has as a root. For example, when it factors as . Since , we see that must be a root of . This polynomial is irreducible over and hence the degree of over is .    From the book: 3.3, 3.4ab, 3.9, 6.1     [Problem A] Let be a prime number and let be the primitive th root of unity. Use Theorem 12.4.9 to find the degree of over .     [Problem B] Let and be distinct positive prime numbers. Set .  Find a monic polynomial of degree such that .  Explain why part (a) shows that .  Note: In order to be sure that , we would need to know that is irreducible. (Do not attempt it, though). Is it enough to show that has no rational roots?  Show and conclude .  Show .   , , . Explain your reasoning.  Do not take for granted the fact that -- you need to prove it. Rather than trying to show that is irreducible, look at the field extensions: If you know that and , what can you say about ? Is it possible to have ?    Show that . (Proceed by contradiction.)  Show that .  Use a similar approach as above. Consider the field extensions: Then explain why and .    Note that . Why? Then show .       Let be a finite field extension. If is a subring of such that , show that is a field.    Let , . Since and is a field, exists in . We need to show . Since the extension is finite, Corollary 15.3.6(a) gives that the element is algebraic over . Argue from here that .     "
+},
+{
+  "id": "hw10-ex-1",
+  "level": "2",
+  "url": "HW10.html#hw10-ex-1",
+  "type": "Exercise",
+  "number": "1.9.1",
+  "title": "",
+  "body": " From the book: 3.3, 3.4ab, 3.9, 6.1  "
+},
+{
+  "id": "hw10-ex-2",
+  "level": "2",
+  "url": "HW10.html#hw10-ex-2",
+  "type": "Exercise",
+  "number": "1.9.2",
+  "title": "",
+  "body": "  [Problem A] Let be a prime number and let be the primitive th root of unity. Use Theorem 12.4.9 to find the degree of over .   "
+},
+{
+  "id": "hw10-ex-4",
+  "level": "2",
+  "url": "HW10.html#hw10-ex-4",
+  "type": "Exercise",
+  "number": "1.9.3",
+  "title": "",
+  "body": "  Let be a finite field extension. If is a subring of such that , show that is a field.    Let , . Since and is a field, exists in . We need to show . Since the extension is finite, Corollary 15.3.6(a) gives that the element is algebraic over . Argue from here that .   "
+},
+{
   "id": "Exam1-Review",
   "level": "1",
   "url": "Exam1-Review.html",
