@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW10" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 10</title>
+
+  <p><alert> Due Thursday, April 16</alert></p>
+
+  <p>
+    A comment about roots of unity: In order to compute the degree of <m>\zeta_n=e^{\frac{2\pi i}{n}}</m> over <m>\mathbb Q</m> or other fields, 
+    one does not need to explicitly compute <m>\zeta_n</m>. Here is how one can reason: Note that
+     <m>\zeta_n=e^{\frac{2\pi i}{n}}</m> is a root of <m>x^n-1</m>.
+     This polynomial is not irreducible, so in order to find the minimal polynomial of <m>\zeta_n</m> we would need to factor it and figure out which one of its irreducible factors has <m>\zeta_n</m> as a root. For example, when <m>n=3</m> it factors as <m>(x-1)(x^2+x+1)</m>. 
+     Since <m>\zeta_3\ne 1</m>, we see that <m>\zeta_3</m> must be a root of <m>x^2+x+1</m>. 
+     This polynomial is irreducible over <m>\mathbb Q</m> and hence the degree of <m>\zeta_3</m> over <m>\mathbb Q</m> is <m>2</m>.
+  </p>
+
+
+<exercises xml:id="hw10-ex">
+
+    <exercise>
+        <p>
+            From the book: 3.3,  3.4ab, 3.9, 6.1
+        </p>
+    </exercise>
+  <exercise>
+    <statement>
+      <p>
+       [Problem A] Let <m> p</m>  be a prime number and let <m> \zeta_p=e^{\frac{2\pi i}{p}}</m>  be the primitive <m> p</m> th root of unity. Use Theorem 12.4.9 to find the degree of <m> \zeta_p</m>  over <m> \mathbb Q</m> .
+      </p>
+    </statement>
+</exercise>
+
+        <statement>
+          <p>
+           [Problem B] Let <m> p</m>  and <m> q</m>  be distinct positive  prime numbers. Set <m> \alpha=\sqrt p+\sqrt q</m> .
+            <ol>
+              <li>
+                Find a monic  polynomial <m> f(x)\in\mathbb Q[x]</m>  of degree <m> 4</m>  such that <m> f(\alpha)=0</m> .
+              </li>
+
+              <li>
+                Explain why part (a) shows that <m> [\mathbb Q(\alpha):\mathbb Q]\le 4</m> .
+              </li>
+
+              <li>
+                Note: In order to be sure that <m> [\mathbb Q(\alpha):\mathbb Q]=4</m> , we would need to know that <m> f</m>  is irreducible.
+                 (Do not attempt it, though). Is it enough to show that <m> f(x)</m>  has no rational roots?
+              </li>
+
+              <li>
+                Show <m> \sqrt{pq}\in \mathbb Q(\alpha)</m>  and conclude  <m> \mathbb Q(\sqrt{pq})\subseteq  \mathbb Q(\alpha)</m>.
+              </li>
+
+              <li>
+                Show <m> \alpha\notin\mathbb Q(\sqrt{pq})</m> .
+              </li>
+                <li>
+                  <m> [\mathbb Q(\alpha):\mathbb Q(\sqrt{pq})]=?</m> , <m> [\mathbb Q(\sqrt{pq}):\mathbb Q]=?</m> , 
+                  <m> [\mathbb Q(\alpha):\mathbb Q]=?</m> . Explain your reasoning. 
+                
+            <hint>
+                <p> Do not take for granted the fact that <m> [\mathbb Q(\alpha):\mathbb Q]=4</m>  -- you need to prove it. Rather than trying to show that <m> f(x)</m>  is irreducible, look at the field extensions:
+                  <me>
+                    \mathbb Q\subseteq \mathbb Q(\sqrt{pq})\subseteq \mathbb Q(\alpha)
+                  </me>
+                  If you know that <m> [\mathbb Q(\sqrt{pq}):\mathbb Q]=2</m>  
+                  and <m> [\mathbb Q(\alpha):\mathbb Q]\le 4</m> , 
+                  what can you say about  <m> [\mathbb Q(\alpha):\mathbb Q(\sqrt{pq})]</m> ? 
+                   Is it possible to have  <m> [\mathbb Q(\alpha):\mathbb Q(\sqrt{pq})]=1</m> ?
+                </p>
+            </hint>
+                </li>
+
+                <li>
+                  Show that <m> \sqrt q\notin\mathbb Q(\sqrt p)</m> . (Proceed by contradiction.)
+                </li>
+
+                <li>
+                  Show that <m> [\mathbb Q(\sqrt p,\sqrt q):\mathbb Q]=4</m> . 
+                  <hint>
+                  <p>Use a similar approach as above. Consider the field extensions:
+                  <me>
+                    \mathbb Q\subseteq \mathbb Q(\sqrt p)\subseteq \mathbb Q(\sqrt p)(\sqrt q)=\mathbb Q(\sqrt p,\sqrt q)
+                  </me>
+                  Then explain why <m> [\mathbb Q(\sqrt{p}):\mathbb Q]=2</m>  
+                  and <m> [\mathbb Q(\sqrt{p}, \sqrt q):\mathbb Q(\sqrt p)]=2</m> .
+                </p>
+                </hint>
+                </li>
+
+                <li>
+                  Note that <m> \mathbb Q(\sqrt p+\sqrt q)\subseteq \mathbb Q(\sqrt p, \sqrt q)</m> . Why?  Then show  <m> \mathbb Q(\sqrt p, \sqrt q)= Q(\sqrt p+\sqrt q)</m> .
+                </li>
+              </ol>
+            </p>
+          </statement>
+
+          <exercise>
+            <statement>
+              <p>
+                Let <m> E\subseteq F</m>  be a finite field extension. If <m> R</m>  is a subring of <m> F</m>  such that <m> E\subseteq R\subseteq F</m> , show that <m> R</m>  is a field.
+              </p>
+            </statement>
+
+            <hint>
+              <p>
+                Let <m> a\in R</m> , <m> a\ne 0</m> . Since <m> a\in F</m>  and <m> F</m>  is a field, <m> a^{-1}</m>  exists in <m> F</m> . We need to show <m> a^{-1}\in R</m> .  Since the extension is finite, Corollary 15.3.6(a)  gives that the element <m> a^{-1}</m>  is algebraic over <m> E</m> . Argue from here that <m> a^{-1}\in R</m> .
+              </p>
+            </hint>
+          </exercise>
+
+          </exercises>
+
+        </section>   
