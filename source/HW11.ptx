@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW11" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 11</title>
+
+  <p><alert> Due Thursday, April 23</alert></p>
+
+  <p>
+   We will denote by <m>\mathbb F_q</m> a field with <m>q</m> elements. 
+  </p>
+
+
+<exercises xml:id="hw11-ex">
+
+    <exercise>
+        <p>
+            From the book: Chapter 15: 7.1, 7.7
+        </p>
+    </exercise>
+
+
+
+  <exercise>
+    <statement>
+      <p>
+       [Problem A] 
+       Let <m>K</m> be a field of characteristic <m>p</m>, not necessarily finite. Let <m>f(x)\in K[x]</m> be an irreducible polynomial which admits multiple roots in some field extension of <m>K</m>. 
+       Show that there exists an irreducible polynomial <m>g(x)\in K[x]</m> such that <m>f(x)=g(x^{p})</m>.
+      </p>
+    </statement>
+    <hint>
+        <p>
+           What can you say about <m>f'</m>? 
+        </p>
+    </hint>
+</exercise>
+
+<exercise>
+<statement>
+      <p>
+       [Problem B] Let <m>K</m> be a field of characteristic <m>p</m> such that <m>\varphi\colon K\to K</m> given by <m>\varphi(x)=x^{p}</m> is an isomorphism. Let <m>f(x)\in K[x]</m> be an irreducible polynomial. 
+       Show that <m>f</m> has no multiple roots in any field extension of <m>K</m>.
+      </p>
+    </statement> 
+    <hint>
+        <p>
+            Assume <m>f</m> has multiple roots. Use the problem above to get a contradiction 
+            with the fact that <m>f</m> is irreducible: Try to show that <m>f=h^{p}</m> for some <m>h\in K[x]</m>.
+        </p>
+    </hint>
+</exercise>
+
+
+
+<exercise>
+<statement>
+      <p>
+       [Problem C] Let <m>K</m> be a finite field with <m>q=p^{n}</m> elements (<m>p</m> is prime). 
+       For every <m>y\in K</m>, prove that there exists a <em>unique</em> <m>x\in K</m> such that <m>y=x^{p}</m>.
+      </p>
+    </statement> 
+    <hint>
+        <p>
+          Show that <m>f\colon K\to K</m> given by <m>f(x)=x^{p}</m> is an isomorphism. 
+        </p>
+    </hint>
+</exercise>
+
+
+<exercise>
+<statement>
+      <p>
+       [Problem D]  Let <m>K</m> be a field with <m>p^{n}</m> elements, where <m>p</m> is an <em>odd</em> prime number. Write <m>p^{n}=2k+1</m> with <m>k\in \mathbb{N}</m>. 
+       If <m>a\in K^{\times}</m>, show that the equation <m>x^{2}=a</m> has a solution if and only if <m>a^{k}=1</m>.
+      </p>
+    </statement> 
+    <hint>
+        <p>
+          Recall that <m>K^{\times}</m> is cyclic.
+        </p>
+    </hint>
+</exercise>
+
+          </exercises>
+
+        </section>   
