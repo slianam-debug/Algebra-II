@@ -325,11 +325,20 @@ var ptx_lunr_docs = [
   "body": "  Give an example of a ring , an -module and two submodules , of such that , but .    How do you prove that two modules are NOT isomorphic? This idea may work sometimes: In view of a problem from the last homework, if , you can conclude right away that .   "
 },
 {
+  "id": "HW8",
+  "level": "1",
+  "url": "HW8.html",
+  "type": "Section",
+  "number": "1.8",
+  "title": "Homework 8",
+  "body": " Homework 8  "
+},
+{
   "id": "HW9",
   "level": "1",
   "url": "HW9.html",
   "type": "Section",
-  "number": "1.8",
+  "number": "1.9",
   "title": "Homework 9",
   "body": " Homework 9  Due Thursday, April 9     [From the book]: Chapter 15: 2.1, 2.2, 3.1    We say that generates a field extension if . Thus, for problem 3.1 you need to show . (Hint: Use the multiplicative property of degree.)      [Problem A] The Structure theorem of finite abelian groups says that any finite abelian group can be written (up to isomorphism) as a direct product of cyclic groups of the form with prime. If is a finite abelian group, is a prime number and is a non-negative integer, we let denote the number of times that appears in this decomposition of as a direct product. The uniqueness part of the theorem tells us that two groups and are isomorphic if and only if for all primes and all non-negative integers . (This is equivalent to saying that such decompositions are unique, up to the order in which we write the terms of the direct products.)  Use the theorem and the notation introduced above to show the following hold for finite abelian groups:    If then .    If then .       [Problem B] If is a field extension and , then is the set of all fractions in of the form , where .  If is another field extension, show: If , then .  Then, use this observation to prove .    "
 },
@@ -338,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "HW9.html#hw9-ex-1",
   "type": "Exercise",
-  "number": "1.8.1",
+  "number": "1.9.1",
   "title": "",
   "body": "  [From the book]: Chapter 15: 2.1, 2.2, 3.1    We say that generates a field extension if . Thus, for problem 3.1 you need to show . (Hint: Use the multiplicative property of degree.)   "
 },
@@ -347,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "HW9.html#hw9-ex-2",
   "type": "Exercise",
-  "number": "1.8.2",
+  "number": "1.9.2",
   "title": "",
   "body": "  [Problem A] The Structure theorem of finite abelian groups says that any finite abelian group can be written (up to isomorphism) as a direct product of cyclic groups of the form with prime. If is a finite abelian group, is a prime number and is a non-negative integer, we let denote the number of times that appears in this decomposition of as a direct product. The uniqueness part of the theorem tells us that two groups and are isomorphic if and only if for all primes and all non-negative integers . (This is equivalent to saying that such decompositions are unique, up to the order in which we write the terms of the direct products.)  Use the theorem and the notation introduced above to show the following hold for finite abelian groups:    If then .    If then .     "
 },
@@ -356,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "HW9.html#hw9-ex-3",
   "type": "Exercise",
-  "number": "1.8.3",
+  "number": "1.9.3",
   "title": "",
   "body": " [Problem B] If is a field extension and , then is the set of all fractions in of the form , where .  If is another field extension, show: If , then .  Then, use this observation to prove .  "
 },
@@ -365,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "HW10.html",
   "type": "Section",
-  "number": "1.9",
+  "number": "1.10",
   "title": "Homework 10",
   "body": " Homework 10  Due Thursday, April 16  A comment about roots of unity: In order to compute the degree of over or other fields, one does not need to explicitly compute . Here is how one can reason: Note that is a root of . This polynomial is not irreducible, so in order to find the minimal polynomial of we would need to factor it and figure out which one of its irreducible factors has as a root. For example, when it factors as . Since , we see that must be a root of . This polynomial is irreducible over and hence the degree of over is .    From the book: 3.3, 3.4ab, 3.9, 6.1     [Problem A] Let be a prime number and let be the primitive th root of unity. Use Theorem 12.4.9 to find the degree of over .     [Problem B] Let and be distinct positive prime numbers. Set .  Find a monic polynomial of degree such that .  Explain why part (a) shows that .  Note: In order to be sure that , we would need to know that is irreducible. (Do not attempt it, though). Is it enough to show that has no rational roots?  Show and conclude .  Show .   , , . Explain your reasoning.  Do not take for granted the fact that -- you need to prove it. Rather than trying to show that is irreducible, look at the field extensions: If you know that and , what can you say about ? Is it possible to have ?    Show that . (Proceed by contradiction.)  Show that .  Use a similar approach as above. Consider the field extensions: Then explain why and .    Note that . Why? Then show .       Let be a finite field extension. If is a subring of such that , show that is a field.    Let , . Since and is a field, exists in . We need to show . Since the extension is finite, Corollary 15.3.6(a) gives that the element is algebraic over . Argue from here that .     "
 },
@@ -374,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "HW10.html#hw10-ex-1",
   "type": "Exercise",
-  "number": "1.9.1",
+  "number": "1.10.1",
   "title": "",
   "body": " From the book: 3.3, 3.4ab, 3.9, 6.1  "
 },
@@ -383,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "HW10.html#hw10-ex-2",
   "type": "Exercise",
-  "number": "1.9.2",
+  "number": "1.10.2",
   "title": "",
   "body": "  [Problem A] Let be a prime number and let be the primitive th root of unity. Use Theorem 12.4.9 to find the degree of over .   "
 },
@@ -392,9 +401,63 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "HW10.html#hw10-ex-4",
   "type": "Exercise",
-  "number": "1.9.3",
+  "number": "1.10.3",
   "title": "",
   "body": "  Let be a finite field extension. If is a subring of such that , show that is a field.    Let , . Since and is a field, exists in . We need to show . Since the extension is finite, Corollary 15.3.6(a) gives that the element is algebraic over . Argue from here that .   "
+},
+{
+  "id": "HW11",
+  "level": "1",
+  "url": "HW11.html",
+  "type": "Section",
+  "number": "1.11",
+  "title": "Homework 11",
+  "body": " Homework 11  Due Thursday, April 23  We will denote by a field with elements.    From the book: Chapter 15: 7.1, 7.7     [Problem A] Let be a field of characteristic , not necessarily finite. Let be an irreducible polynomial which admits multiple roots in some field extension of . Show that there exists an irreducible polynomial such that .    What can you say about ?      [Problem B] Let be a field of characteristic such that given by is an isomorphism. Let be an irreducible polynomial. Show that has no multiple roots in any field extension of .    Assume has multiple roots. Use the problem above to get a contradiction with the fact that is irreducible: Try to show that for some .      [Problem C] Let be a finite field with elements ( is prime). For every , prove that there exists a unique  such that .    Show that given by is an isomorphism.      [Problem D] Let be a field with elements, where is an odd prime number. Write with . If , show that the equation has a solution if and only if .    Recall that is cyclic.     "
+},
+{
+  "id": "hw11-ex-1",
+  "level": "2",
+  "url": "HW11.html#hw11-ex-1",
+  "type": "Exercise",
+  "number": "1.11.1",
+  "title": "",
+  "body": " From the book: Chapter 15: 7.1, 7.7  "
+},
+{
+  "id": "hw11-ex-2",
+  "level": "2",
+  "url": "HW11.html#hw11-ex-2",
+  "type": "Exercise",
+  "number": "1.11.2",
+  "title": "",
+  "body": "  [Problem A] Let be a field of characteristic , not necessarily finite. Let be an irreducible polynomial which admits multiple roots in some field extension of . Show that there exists an irreducible polynomial such that .    What can you say about ?   "
+},
+{
+  "id": "hw11-ex-3",
+  "level": "2",
+  "url": "HW11.html#hw11-ex-3",
+  "type": "Exercise",
+  "number": "1.11.3",
+  "title": "",
+  "body": "  [Problem B] Let be a field of characteristic such that given by is an isomorphism. Let be an irreducible polynomial. Show that has no multiple roots in any field extension of .    Assume has multiple roots. Use the problem above to get a contradiction with the fact that is irreducible: Try to show that for some .   "
+},
+{
+  "id": "hw11-ex-4",
+  "level": "2",
+  "url": "HW11.html#hw11-ex-4",
+  "type": "Exercise",
+  "number": "1.11.4",
+  "title": "",
+  "body": "  [Problem C] Let be a finite field with elements ( is prime). For every , prove that there exists a unique  such that .    Show that given by is an isomorphism.   "
+},
+{
+  "id": "hw11-ex-5",
+  "level": "2",
+  "url": "HW11.html#hw11-ex-5",
+  "type": "Exercise",
+  "number": "1.11.5",
+  "title": "",
+  "body": "  [Problem D] Let be a field with elements, where is an odd prime number. Write with . If , show that the equation has a solution if and only if .    Recall that is cyclic.   "
 },
 {
   "id": "Exam1-Review",
