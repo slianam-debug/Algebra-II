@@ -112,10 +112,10 @@
       <!--<worksheet formatted="yes" />-->
   </latex>
 
-  <html>
-    <video privacy="yes" />
-        <index-page ref="xml-id-of-target" />
-        <knowl embed-button="yes"/>
+    
+<html embed-button="yes">
+    
+
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
 
