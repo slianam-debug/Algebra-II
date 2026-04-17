@@ -10,5 +10,6 @@
 
   <!-- include sections -->
   <xi:include href="Exam1-Review.ptx" />
+  <xi:include href="Exam2-Review.ptx" />
 
 </chapter>

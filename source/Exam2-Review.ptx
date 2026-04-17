@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Exam2-Review" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exam 2 topics</title>
+
+
+<p>
+  <alert>Section 14.4 - Diaonalizing integer matrices</alert>
+</p>
+
+<ul>
+<li>
+<p>
+  Definitions and concepts:
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        elementary integer matrix, row operations, column operations
+      </p>
+    </li>
+  </ul>
+</p>
+</li>
+ex
+<li>
+<p>
+  Results to know:t
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Theorem 14.4.6 and the algorithm contained in its proof.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Proposition 14.4.9
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Theorem 14.4.11
+      </p>
+    </li>
+    
+  </ul> 
+</p>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Diagonalize an integer matrix; find the matrices <m>Q</m> and <m>P</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Assuming that we know the matrices <m>P</m> and <m>Q</m>, solve problems like 4.3.
+            </p>
+          </li>
+        </ul>
+      </p>
+     
+    </li>
+  </li>
+</ul>
+
+
+<p>
+  <alert>Section 14.5 Generations and relations</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              relation, module of relations
+            </p>
+          </li>
+
+          <li>
+            <p>
+              presentation matrix of a module
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Given generators and relations, find the presentation matrix of the module. See Example 14.5.2.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+<p>
+  <alert>Section 14.6 - Noetherian rings</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              finitely generated module
+            </p>
+          </li>
+
+          <li>
+            <p>
+              ascending chain condition, noetherian ring
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Results to know:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Proposition 14.6.1 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Corollary 14.6.3, 14.6.4
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Theorem 14.6.5
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Lemma 14.6.6(b) ; <alert>be able to prove</alert> (see the proof in the book; In class, we proved this as part of the proof of Theorem 14.6.5)
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Explain why we needed to talk about noetherian rings in the context of the structure theorem of abelian groups.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+<p>
+  <alert>Section 14.7 - Structure of abelian groups</alert>
+</p>
+
+<p>
+  <ul>
+  
+    <li>
+      <p>
+        Results to know:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Theorem 14.7.3, Corollary 14.7.6, Theorem 14.7.7
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>\mathbb{Z}_{ab}\cong \mathbb{Z}_{a}\times \mathbb{Z}_{b}</m> when <m>\gcd(a,b)=1</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Given an abelian group described by generators and relations, write it as a product of cyclic group of prime power order and <m>\mathbb{Z}^{a}</m>, by employing diagonalization.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Classify (up to isomorphism) all abelian groups of a given order.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the uniqueness in the structure theorem to prove results.
+            </p>
+          </li>
+
+  
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+<p>
+  <alert>Sectiona 15.1, 15.2 - Examples of fields, Algebraic and transcendental elements</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              field, field extension
+            </p>
+          </li>
+
+          <li>
+            <p>
+              algebraic element, transcendental element
+            </p>
+          </li>
+
+          <li>
+            <p>
+              irreducible (or minimal) polynomial of <m>\alpha</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>F[\alpha_{1}, \dots, \alpha_{n}]</m> and <m>F(\alpha_{1}, \dots, \alpha_{n})</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>F</m>-isomorphism; isomorphism of field extensions
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Results to know:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Proposition 15.2.3
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Proposition 15.2.6 ; <alert>be able to prove</alert>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Proposition 15.2.8
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Explain equalities such as <m>\mathbb{Q}(5\sqrt{3}+2)=\mathbb{Q}(\sqrt{3})</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the results in this section in reasoning towards solving problems (e.g. argue that a certain polynomial is the irreducible polynomial of some element by showing that it satisfies one of the equivalent conditions in Proposition 15.2.3, or use the fact that <m>F[\alpha]=F(\alpha)</m> is a field when <m>\alpha</m> is algebraic.)
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+<p>
+  <alert>Section 15.3 - The degree of a field extension</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              The notation <m>[K:F]</m>; degree of an extension.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              finite extension
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Complex analysis notation for the roots of unity <m>\zeta_{i}=e^{\frac{2\pi }{i}}</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Results to know:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Lemma 15.3.2 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Proposition 15.3.3 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Proposition 15.3.4 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Theorem 15.3.5 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Corollary 15.3.6
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Review from the material for the previous exam results that allow you to prove that a given polynomial is irreducible, towards finding the degree of a given field extension. 
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Solve a variety of problems using the results in this sections. See Examples 15.3.10 and the homework exercises.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Describe a basis of a given field extension using the proof of Theorem 15.3.5.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+
+
+<p>
+  <alert>Section 15.6 - Adjoining roots</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Multiple root.
+            </p>
+          </li>
+
+
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Results to know:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Proposition 15.6.3, Proposition 15.6.4
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Lemma 15.6.6 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Proposition 15.6.7 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Proposition 15.6.8 ; <alert>be able to prove</alert>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Use the results of this section to solve problems involving multiple roots. 
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+
+
+<p>
+  <alert>Section 15.5- Finite fields</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              (From earlier chapters): characteristic
+            </p>
+          </li>
+
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Results to know:
+      </p>
+  
+      <p>
+        <ul>
+          <li>
+            <p>
+              Theorem 15.7.3 <alert>be able to prove parts (a) and (c) and the existence part of (d)</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Lemma 15.7.10; <alert>be able to prove</alert>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Explain why a finite field <m>F</m> must have <m>p^k</m> elements, where <m>p</m> is the characteristic of <m>F</m> and <m>k=[K:\mathbb Z_p]</m>
+  
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Explain why the characteristic of an integral domain is either <m>0</m> or a prime number. 
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Explain why a finite field can be generated by a single element, that is, <m>F=\mathbb Z_p(\alpha)</m> for some <m>\alpha</m>, where <m>\alpha</m> is a generator of the cyclic group <m>F^{\times}</m>. 
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Solve a variety of problems about finite fields; see the hw. 
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+
+
+<p>
+  <alert>Section 15.6- Primitive elements</alert>
+</p>
+
+<p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Primitive element
+            </p>
+          </li>
+
+        </ul>
+      </p>
+    </li>
+
+    <li>
+      <p>
+        Results to know:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              Theorem 15.8.1 <alert>be able to prove, assuming Lemma 15.8.2</alert>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Lemma 15.8.2; from the proof, understand how one must choose <m>c</m> to make the argument work. 
+            </p>
+          </li>
+
+      </ul>
+    </p>
+  </li>
+    <li>
+      <p>
+        Be able to:
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+             Explain, for example, why <m>\mathbb Q(\sqrt{2}, \sqrt{3})=\mathbb Q(\sqrt{2}+\sqrt{3})</m> using the results of this section. 
+  
+            </p>
+          </li>
+        </ul>
+      </p>
+    </li>
+  </ul>
+</p>
+
+
+
+
+</section>
+
