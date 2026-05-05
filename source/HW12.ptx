@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW12" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 12</title>
+
+  <p><alert> Due Thursday, May 14</alert></p>
+
+<exercises xml:id="hw12-ex">
+<exercise>
+<p>
+Consider the polynomials <m>f(x,y,z)=x^3-x^2y-x^2z+x</m> and <m>f_1=x^2y-z</m> and <m>f_2=xy-1</m>. 
+  </p>
+<ol>
+  <li>
+<p> Using lex order, divide <m>f</m> by <m>(f_1,f_2) </m> and record the quotient and remainder below: 
+<me> f(x,y,z)=\ldots\ldots\ldots\cdot(x^2y-z)+\ldots\ldots\ldots \cdot(xy-1)+\ldots\ldots\ldots</me>
+</p>
+</li>
+<li>
+  <p>
+    Now reverse the order. That is, divide <m> f</m> by <m>(f_2, f_1) </m> and record the quotient and remainder below: 
+    <me> f(x,y,z)=\ldots\ldots\ldots\cdot(xy-1)+\ldots\ldots\ldots \cdot(x^2y-z)+\ldots\ldots\ldots</me>
+  </p>
+</li>
+</ol>
+</exercise>
+
+<exercise>
+<p>
+Consider the ideal <m> I=(x-z^2, y-z^3)
+  </m> of <m>K[x,y,z]</m>.
+  </p>
+  <ol>
+    <li>
+      <p>
+        Is <m>G=\{x-z^2,y-z^3\}</m> a Groebner basis for <m>I</m> under the lex order with <m> x>y>z</m>?  
+      </p>
+    </li>
+    <li>
+      <p>
+        Is <m>G=\{x-z^2,y-z^3\}</m> a Groebner basis for <m>I</m> under the lex order with <m> z>y>x</m>?  
+      </p>
+    </li>
+    <li>
+      <p>
+        Is <m>G=\{x-z^2,y-z^3\}</m> a Groebner basis for <m>I</m> under the grlex (graded lex) order with <m> x>y>z</m>?  
+      </p>
+    </li>
+  </ol>
+
+  </exercise>
+
+
+</exercises>
+</section>
