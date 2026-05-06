@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.12",
   "title": "Homework 12",
-  "body": " Homework 12  Due Thursday, May 14    Consider the polynomials and and .    Using lex order, divide by and record the quotient and remainder below:     Now reverse the order. That is, divide by and record the quotient and remainder below:       Consider the ideal of .    Is a Groebner basis for under the lex order with ?    Is a Groebner basis for under the lex order with ?    Is a Groebner basis for under the grlex (graded lex) order with ?      "
+  "body": " Homework 12  Due Thursday, May 14    Consider the polynomials and and .    Using lex order, divide by and record the quotient and remainder below:     Now reverse the order. That is, divide by and record the quotient and remainder below:       Note that is not divisible by either or . I do not think we worked out an example of this in class, but the division algorithm still applies. In this case, you would need to add to the remainder and subtract it from (or just ignore it) and then continue with the algorithm. I am including a screenshot of the algorithm below.  Division algorithm       Consider the ideal of .    Is a Groebner basis for under the lex order with ?    Is a Groebner basis for under the lex order with ?    Is a Groebner basis for under the grlex (graded lex) order with ?      "
 },
 {
   "id": "hw12-ex-1",
@@ -478,9 +478,18 @@ var ptx_lunr_docs = [
   "body": " Consider the polynomials and and .    Using lex order, divide by and record the quotient and remainder below:     Now reverse the order. That is, divide by and record the quotient and remainder below:     "
 },
 {
-  "id": "hw12-ex-2",
+  "id": "fig-division-algorithm",
   "level": "2",
-  "url": "HW12.html#hw12-ex-2",
+  "url": "HW12.html#fig-division-algorithm",
+  "type": "Figure",
+  "number": "1.12.1",
+  "title": "",
+  "body": " Division algorithm   "
+},
+{
+  "id": "hw12-ex-3",
+  "level": "2",
+  "url": "HW12.html#hw12-ex-3",
   "type": "Exercise",
   "number": "1.12.2",
   "title": "",
