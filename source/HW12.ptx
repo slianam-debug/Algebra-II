@@ -25,6 +25,19 @@ Consider the polynomials <m>f(x,y,z)=x^3-x^2y-x^2z+x</m> and <m>f_1=x^2y-z</m> a
 </ol>
 </exercise>
 
+<solution>
+  <p>
+    Note that <m>LT(f)</m> is not divisible by either <m>LT(f_1)</m> or <m>LT(f_2)</m>.  
+    I do not think we worked out an example of this in class, but the division algorithm still applies. 
+    In this case, you would need to add <m>LT(f)</m> to the remainder and subtract it from <m>f</m> (or just ignore it) and then continue with the algorithm. 
+    I am including a screenshot of the algorithm below. 
+    <figure xml:id="fig-division-algorithm">
+    <caption>Division algorithm</caption>
+    <image source="div-alg.jpg" width="100%"/>
+</figure>
+  </p>
+</solution>
+
 <exercise>
 <p>
 Consider the ideal <m> I=(x-z^2, y-z^3)
